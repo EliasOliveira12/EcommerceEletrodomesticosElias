@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Orelega One", serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #1369EA;
+    height: 20vh;
+    align-items: center;
+}
+header img{
+    width: 10%;
+
+}
+header span{
+    padding: 10px 15px;
+    background-color: #FFB300;
+    border-radius: 20px;
+}
+.Banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFB300;
+    padding: 20px;
+}
+    .texto-azul{
+        color: #3b5998 ;
+        font-size: 1.5em;
+    }
+.borda-azul{
+    padding: 10px 20px;
+    background-color: #2A11BA;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 2em;
+}
+.imagensbanner{
+    display: flex;
+    align-items: center;
+}
+.promocao{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #E64529;
+    justify-content: space-between;
+}
+.textopromo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    
+    
+}
+.textopromo h3{
+    font-size: 2em;
+    color: #1369EA;
+
+}
+.textopromo p{
+    font-size: 1.5em;
+    color: #1369EA;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFB300;
+    padding:40px 20px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    width: 25%;
+    height: 500px;
+    
+}
+.eletros{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 120px;
+    align-items: center;
+    gap: 10%;
+
+
+}
+.card img{
+    width: 50%;
+    margin-bottom: 30px;
+}
+.card h3{
+    font-size: 2em;
+    color: #1369EA;
+
+}
+.card p{
+    font-size: 1em;
+    color: #2A11BA;
+}
