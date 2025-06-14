@@ -104,4 +104,30 @@ header span{
 .card p{
     font-size: 1em;
     color: #2A11BA;
+    text-align: center;
+}
+.compre{
+    display: flex;
+    flex-direction: column;
+    background-color: #1369EA;
+    align-items: center;
+    padding:80px 20px;
+    gap: 50px;
+}
+.textos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textocompra{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #ffffff;
+    width: 30%;
+    align-items: center;
+}
+.textocompra p{
+    text-align: center;
+    width: 80%;
 }
