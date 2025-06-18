@@ -131,3 +131,72 @@ header span{
     text-align: center;
     width: 80%;
 }
+.quem-somos{
+    background-color: #FFB300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px ;
+    color: #1369EA;
+    padding-bottom: 1.5rem;
+
+}
+.btn-wpp{ 
+    background-color: #FFB300;
+    padding: 1.1rem;
+    border-radius: 15px;
+
+    
+    
+}
+.cadastro{
+    background-color: #E64529;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    color: #1369EA;
+    height: 65vh;
+    justify-content: space-between;
+    gap: 15px;
+
+
+
+    
+}
+.btn-enviar{
+    color: #1369EA;
+    font-size: 1.5em;
+    padding: 20px 30px;
+    background-color: #FFB300;
+    border: none;
+    border-radius: 25px;
+
+
+    
+}
+.formulario{
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+ justify-content: center;
+ gap: 15px;
+
+
+}
+.inputs{
+    padding: 20px;
+    width: 400px;
+    border-radius: 25px;
+    background-color: #FFB300;
+    border: none;
+    color: #000000;
+
+
+}
+.inputs::placeholder{
+    color: #1369EA;
+    font-size: 1.5em;
+}
+
+    
