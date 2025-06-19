@@ -198,5 +198,123 @@ header span{
     color: #1369EA;
     font-size: 1.5em;
 }
-
+.avaliacoes{
+    display: flex;
+    padding: 60px;
+    background-color: #1369EA;
+    color: #ffffff;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30%;
+}
+.avaliacoes h3{
+    font-size: 2em;
+}    
+.ava{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.estrelas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.estrelas h2{
+    font-size: 2em;
+    color: #FFB300;
+}
+.estrelas img{
+    width: 200px;
+}
+.ava2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.ava2 p{
+    font-size: 1.5em;
+}
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     
+}
+.comentario{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+}
+.comentario p{
+    font-size: 1.5em;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #E64529;
+    padding: 60px;
+    color: #1369EA;
+}
+.rodapes{
+    display: flex;
+    justify-content:space-between;
+    gap: 30px;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    align-items: center;
+    max-width: 20%;
+}
+.rodapeimg img{
+    width: 46%;
+
+
+}
+.rodapeimg{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.rodape2{
+    display: flex;
+    gap: 20px;
+}
+.novidades h3{
+    font-size: 1.5em;
+    text-align: center;
+    width: 60%;
+
+
+}
+.novidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.novidades button{
+    padding: 20px;
+    width: 400px;
+    border-radius: 25px;
+    background-color: #FFB300;
+    border: none;
+    color: #1369EA;
+}
+.rodape2 img{
+    width: 150px;
+    height: 150px;
+}
+.redessociais{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-between;
+}
