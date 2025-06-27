@@ -344,10 +344,32 @@ header span{
         align-self: center;
         gap: 20px;
     }
+    .promocao img{
+        width: 40%;
+    }
      
     .card img{
-    width: 50%;
-    margin-bottom: 30px;
+    width: 80%;
+    margin-bottom: 55px;
+    }
+    .card h3{
+        font-size: 1rem;
+    }
+    .card p{
+        font-size: 1rem;
+    }
+    .imagensbanner{
+        flex-wrap:nowrap ;
+        justify-content: center;
+    }
+    .imagensbanner img{
+        width: 35%;
+    }
+
+    .card{
+        width: 90%;
+        margin-bottom: 20px;
+        height: 700px;
     }
 
 
